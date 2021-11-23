@@ -12,10 +12,10 @@ We have used CWRU data for this demonstration. It is a standard database used in
    - C4 : Inner race fault (0.007 inch, load: 1 hp)
    - C5 : Inner race fault (0.014 inch, load: 1 hp)
    - C6 : Inner race fault (0.021 inch, load: 1 hp)
-   C7 : Normal (load: 1 hp)
-   C8 : Outer race fault (0.007 inch, load: 1 hp, data collected from 6 O'clock position)
-   C9 : Outer race fault (0.014 inch, load: 1 hp, 6 O'clock)
-   C10 : Outer race fault (0.021 inch, load: 1 hp, 6 O'clock)
+   - C7 : Normal (load: 1 hp)
+   - C8 : Outer race fault (0.007 inch, load: 1 hp, data collected from 6 O'clock position)
+   - C9 : Outer race fault (0.014 inch, load: 1 hp, 6 O'clock)
+   - C10 : Outer race fault (0.021 inch, load: 1 hp, 6 O'clock)
 
 From each category data are collected in segments of length 1024 and resized to a 2-D matrix of size (32 by 32). There is no overlap between segments. For each category 460 such segments are taken. Total size of the data thus becomes (4600, 32, 32). Out of this 1000 segments are randomly chosen as test data and rest are used for training.
 
