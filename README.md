@@ -6,12 +6,12 @@ In this repository, we will show results of fault diagnosis task using deep lear
 
 We have used CWRU data for this demonstration. It is a standard database used in condition monitoring applications. We have used the drive end data that are sampled at 48 kHz sampling frequency when load of 1 hp is applied on the shaft. Normal data collected with 1 hp load have also been used. There are a total of 10 classes. The classes are
 
-   C1 : Ball defect (0.007 inch, load: 1 hp)
-   C2 : Ball defect (0.014 inch, load: 1 hp)
-   C3 : Ball defect (0.021 inch, load: 1 hp)
-   C4 : Inner race fault (0.007 inch, load: 1 hp)
-   C5 : Inner race fault (0.014 inch, load: 1 hp)
-   C6 : Inner race fault (0.021 inch, load: 1 hp)
+   - C1 : Ball defect (0.007 inch, load: 1 hp)
+   - C2 : Ball defect (0.014 inch, load: 1 hp)
+   - C3 : Ball defect (0.021 inch, load: 1 hp)
+   - C4 : Inner race fault (0.007 inch, load: 1 hp)
+   - C5 : Inner race fault (0.014 inch, load: 1 hp)
+   - C6 : Inner race fault (0.021 inch, load: 1 hp)
    C7 : Normal (load: 1 hp)
    C8 : Outer race fault (0.007 inch, load: 1 hp, data collected from 6 O'clock position)
    C9 : Outer race fault (0.014 inch, load: 1 hp, 6 O'clock)
